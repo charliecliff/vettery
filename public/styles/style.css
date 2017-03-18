@@ -9,6 +9,19 @@ body {
     overflow-x: hidden;
 }
 
+.section-container {
+  background-color: #FFF; 
+  margin-right: 0px; 
+  margin-left: 0px; 
+  width: 100%; 
+  min-height: 300px;
+}
+
+.section-container p {
+  margin-top: 20px; 
+  margin-bottom: : 20px;
+}
+
 #hero {
     top:0;
     left: 0;
