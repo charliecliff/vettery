@@ -20,6 +20,7 @@ body {
   margin-left: 0px; 
   width: 100%; 
   min-height: 300px;
+  height:100vh;
 }
 
 .section-container p {
