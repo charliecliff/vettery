@@ -1,0 +1,46 @@
+<!-- Product Template Page -->
+
+<section id="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>PRODUCTS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="S01E01_Raiders in the Dark.png" style="width:304px;height:406px">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="S01E07_Humblebees.png" style="width:304px;height:406px">
+                    </div>
+                </div>
+            <br>
+            </div>
+            <div class="col-5">
+                <h3>Saturday Morning Adventures</h3>
+                <p>A family-oriented adventure series that combines the whackiness of an early morning cartoon show with the swashbuckling adventure of an old school Dungeons and Dragons game.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none"; 
+            }
+            slideIndex++;
+            if (slideIndex> slides.length) {slideIndex = 1} 
+            slides[slideIndex-1].style.display = "block"; 
+            setTimeout(showSlides, 8000); // Change image every 8 seconds
+        }
+    </script>
+</section>
