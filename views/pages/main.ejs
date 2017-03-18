@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <% include ../partials/main/title.ejs %>
+        <% include ../partials/title.ejs %>
         
         <section id="problem">
             <div class="section-container">
@@ -36,9 +36,9 @@
         <section id="live">
             <div class="section-container">
 
-                <img src="001-paper-plane.svg" style="width: 300px; height: 300px;display: inline-block;" onerror="this.onerror=null; this.src='image.png'">
+                <img src="./graphics/house.svg" style="width: 300px; height: 300px;display: inline-block;" onerror="this.onerror=null; this.src='image.png'">
 
-                <div class="row" style="margin-top: 120px">
+                <div class="row" style="margin-top: 20px">
                     <div class="col-1"></div>
                     <div class="col-10 text-center">
                         <h1 class="uppercase">LIVE WITH VETTERY</h1>
@@ -52,9 +52,9 @@
         <section id="work">
             <div class="section-container">
 
-                <img src="001-paper-plane.svg" style="width: 300px; height: 300px; display: inline-block;" onerror="this.onerror=null; this.src='image.png'">
+                <img src="./graphics/computers.svg" style="width: 300px; height: 300px; display: inline-block;" onerror="this.onerror=null; this.src='image.png'">
 
-                <div class="row" style="margin-top: 120px">
+                <div class="row" style="margin-top: 20px">
                     <div class="col-1"></div>
                     <div class="col-10 text-center">
                         <h1 class="uppercase">WORK WITH VETTERY</h1>
@@ -67,9 +67,9 @@
         <section id="filter">
             <div class="section-container">
 
-                <img src="001-paper-plane.svg" style="width: 300px; height: 300px; display: inline-block;" onerror="this.onerror=null; this.src='image.png'">
+                <img src="./graphics/filter.svg" style="width: 300px; height: 300px; display: inline-block;" onerror="this.onerror=null; this.src='image.png'">
 
-                <div class="row" style="margin-top: 120px">
+                <div class="row" style="margin-top: 20px">
                     <div class="col-1"></div>
                     <div class="col-10 text-center">
                         <h1 class="uppercase">VETTERY IS THE TOP 3%</h1>
@@ -83,7 +83,9 @@
         <section id="apply">
             <div class="section-container">
 
-                <div class="row" style="margin-top: 120px">
+                <img src="./graphics/paper-plane.svg" style="width: 300px; height: 300px; display: inline-block;" onerror="this.onerror=null; this.src='image.png'">
+
+                <div class="row" style="margin-top: 20px">
                     <div class="col-12 text-center">
                         <p>Don't stay grounded for too long.</p>
                         <h1 class="uppercase">START YOUR EXPEDITION TODAY.</h1>
@@ -99,6 +101,8 @@
 
             </div>
         </section>
+
+        <% include ../partials/footer.ejs %>
 
         <script src="./js/min.js"></script>
 
