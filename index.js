@@ -10,7 +10,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('vettery_home.html');
+  response.render('pages/main');
 });
 
 app.get('/apply', function(request, response) {
