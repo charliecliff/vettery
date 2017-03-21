@@ -17,6 +17,10 @@ app.get('/apply', function(request, response) {
   response.render('pages/application');
 });
 
+app.get('/about', function(request, response) {
+  response.render('pages/leadpages_about');
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
