@@ -11,7 +11,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.sendFile('ihome/index.html', { root: __dirname });
+  response.sendFile('static/home/index.html', { root: __dirname });
 });
 
 app.get('/apply', function(request, response) {
