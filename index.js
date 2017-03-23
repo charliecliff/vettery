@@ -21,6 +21,10 @@ app.get('/about', function(request, response) {
   response.render('pages/leadpages_about');
 });
 
+app.get('/program', function(request, response) {
+  response.render('pages/leadpages_program_detail');
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
