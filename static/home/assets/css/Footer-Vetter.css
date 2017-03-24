@@ -100,6 +100,7 @@ div.row {
 }
 
 div.welcome-section {
+  background-color:white;
   padding-bottom:32px;
   padding-top:32px;
   padding-left:30px;
@@ -140,8 +141,8 @@ h3.welcome {
 }
 
 div.apply-section {
-  padding-top:64px;
-  padding-bottom:64px;
+  padding-top:12px;
+  padding-bottom:20px;
 }
 
 h1.text-uppercase.text-center.welcome {
