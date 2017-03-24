@@ -3,6 +3,7 @@
   background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0) ), url(../../assets/img/white-desert.jpg);
   padding-bottom:120px;
   font-family:'Source Sans Pro', sans-serif;
+  min-height:680px;
 }
 
 @media (max-width:767px) {
@@ -183,7 +184,7 @@
 
 .header-blue .hero h1 {
   color:#fff;
-  font-size:40px;
+  font-size:60px;
   padding-top:24px;
   padding-bottom:24px;
   font-weight:300;
@@ -200,7 +201,6 @@
 .header-blue .hero p {
   color:rgba(255,255,255,0.8);
   font-size:20px;
-  /*padding-bottom:30px;*/
   font-weight:300;
 }
 

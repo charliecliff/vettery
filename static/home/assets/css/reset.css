@@ -33,3 +33,16 @@ table {
   border-spacing:0;
 }
 
+p {
+  padding:8px;
+}
+
+h3 {
+  font-family:'Montserrat-Bold';
+  text-align:center;
+  line-height:18px;
+  font-size:18px;
+  padding-bottom:12px;
+  padding-top:12px;
+}
+

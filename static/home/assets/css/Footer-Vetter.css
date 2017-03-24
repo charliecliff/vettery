@@ -100,44 +100,36 @@ div.row {
 }
 
 div.welcome-section {
-  padding-bottom:64px;
-  padding-top:64px;
+  padding-bottom:32px;
+  padding-top:32px;
   padding-left:30px;
   padding-right:30px;
 }
 
 a.call-to-action {
-  background-color:#069ACB;
+  font-family:'Montserrat';
+  background-color:#1cace1;
   border:1px solid;
-  border-color:#069ACB;
-  border-radius:22px;
-  line-height:44px;
+  border-color:#1cace1;
+  line-height:50px;
   vertical-align:middle;
   display:block;
   min-height:44px;
-  height:44px;
   width:100%;
   text-align:center;
   color:white;
 }
 
 a.call-to-action:hover {
-  color:#069ACB;
-  background:white;
+  border-color:#b1b6c8;
+  color:#1cace1;
+  background:#b1b6c8;
   text-decoration:none;
 }
 
-h2 {
-  padding-top:20px;
-  padding-bottom:20px;
-}
-
 h3 {
-  padding-bottom:12px;
-  padding-top:12px;
-}
-
-h2.welcome {
+  line-height:16px;
+  font-size:16px;
   padding-bottom:12px;
   padding-top:12px;
 }
@@ -148,9 +140,8 @@ h3.welcome {
 }
 
 div.apply-section {
-  /*background-color:#292929;*/
-  padding-top:24px;
-  padding-bottom:24px;
+  padding-top:64px;
+  padding-bottom:64px;
 }
 
 h1.text-uppercase.text-center.welcome {
@@ -168,5 +159,12 @@ img.welcome {
   display:block;
   max-height:90px;
   max-width:90px;
+}
+
+p {
+  font-family:'Monserrat-Thin';
+}
+
+img.img-circle.img-responsive {
 }
 
