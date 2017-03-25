@@ -5,6 +5,7 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
 app.use('/assets', express.static(__dirname + '/static/home/assets'));
+app.use('/test-assets', express.static(__dirname + '/static/team/test-assets'));
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
@@ -19,7 +20,7 @@ app.get('/apply', function(request, response) {
 });
 
 app.get('/about', function(request, response) {
-  response.render('pages/leadpages_about');
+  response.sendFile('static/team/index.html', { root: __dirname });
 });
 
 app.get('/program', function(request, response) {
