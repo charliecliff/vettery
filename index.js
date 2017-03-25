@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
 app.use('/assets', express.static(__dirname + '/static/home/assets'));
-app.use('/test-assets', express.static(__dirname + '/static/team/test-assets'));
+app.use('/team-assets', express.static(__dirname + '/static/team/assets'));
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
